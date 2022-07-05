@@ -1,0 +1,305 @@
+STOP 1
+ ERROR: Cannot file input file
+ CFL condition :   0.800000012    
+ --------------------------------------------------
+ ---------- READ_CONTROL_FILE ---------------------
+ --------------------------------------------------
+
+    Ash3d (Rev  1.0 ) run 2022.06.14  20:52 UTC
+
+    opening input file ash3d_input.inp                                                                                                                   
+------------------------------------------------------------
+running map_sensitivity.sh
+Tue Jun 14 21:47:01 UTC 2022
+------------------------------------------------------------
+GMTpre=gmt , GMTv=5
+removing old files
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+VCLON= , VCLAT=
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+diffusion=, plumetype=
+EVol=, EDur=, EPlH=
+(standard_in) 1: syntax error
+EVol_int=
+/home/lgmastin/volcanoes/Mazama/scripts/src/map_sensitivity.sh: line 90: [: -eq: unary operator expected
+DLON_INT=
+getting windfile time
+ncdump: 3d_tephra_fall.nc: No such file or directory
+windtime=
+ncdump: 3d_tephra_fall.nc: No such file or directory
+iwindformat=
+Processing 
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+ncdump: 3d_tephra_fall.nc: No such file or directory
+tmax=
+tfinal=-1, i=
+  : Generating final deposit grid from dep_tot_out_t-1.grd
+grdconvert: Error for input file: No such file (3d_tephra_fall.nc?depothick[-1])
+grdconvert: Syntax error: Specify only one input file
+grdconvert: Syntax error: Must specify both input and output file names
+(standard_in) 1: syntax error
+(standard_in) 1: syntax error
+lonmin= , lonmax= , latmin= , latmax=
+/home/lgmastin/volcanoes/Mazama/scripts/src/map_sensitivity.sh: line 173: [: -le: unary operator expected
+/home/lgmastin/volcanoes/Mazama/scripts/src/map_sensitivity.sh: line 178: [: -le: unary operator expected
+/home/lgmastin/volcanoes/Mazama/scripts/src/map_sensitivity.sh: line 182: [: -le: unary operator expected
+(standard_in) 1: syntax error
+  : Creating deposit map
+pscoast: Warning:  not a valid number and may not be decoded properly.
+pscoast: Syntax error -J option. Correct syntax:
+	-Jm[<lon0>/[<lat0>/]]<scale> OR -JM[<lon0>/[<lat0>/]]<width>
+	  <scale> is <1:xxxx> or cm/degree, or use <width> in cm
+pscoast: Offending option M//20
+ERROR 4: `///' not recognised as a supported file format.
+
+pscoast (api_import_grid): Not a supported grid format [///]
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+pscoast: Syntax error -R option. Correct syntax:
+	-R<xmin>/<xmax>/<ymin>/<ymax>[/<zmin>/<zmax>]
+	  Append r if giving lower left and upper right coordinates
+	-Rg or -Rd for global domain
+	-R<grdfile> to take the domain from a grid file
+pscoast: Offending option ///
+using grdcontour
+grdcontour: Warning:  not a valid number and may not be decoded properly.
+grdcontour: Syntax error -J option. Correct syntax:
+	-Jm[<lon0>/[<lat0>/]]<scale> OR -JM[<lon0>/[<lat0>/]]<width>
+	  <scale> is <1:xxxx> or cm/degree, or use <width> in cm
+grdcontour: Offending option M//20
+ERROR 4: `///' not recognised as a supported file format.
+
+grdcontour (api_import_grid): Not a supported grid format [///]
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+grdcontour: Syntax error -R option. Correct syntax:
+	-R<xmin>/<xmax>/<ymin>/<ymax>[/<zmin>/<zmax>]
+	  Append r if giving lower left and upper right coordinates
+	-Rg or -Rd for global domain
+	-R<grdfile> to take the domain from a grid file
+grdcontour: Offending option ///
+grdcontour: Warning:  not a valid number and may not be decoded properly.
+grdcontour: Syntax error -J option. Correct syntax:
+	-Jm[<lon0>/[<lat0>/]]<scale> OR -JM[<lon0>/[<lat0>/]]<width>
+	  <scale> is <1:xxxx> or cm/degree, or use <width> in cm
+grdcontour: Offending option M//20
+ERROR 4: `///' not recognised as a supported file format.
+
+grdcontour (api_import_grid): Not a supported grid format [///]
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+grdcontour: Syntax error -R option. Correct syntax:
+	-R<xmin>/<xmax>/<ymin>/<ymax>[/<zmin>/<zmax>]
+	  Append r if giving lower left and upper right coordinates
+	-Rg or -Rd for global domain
+	-R<grdfile> to take the domain from a grid file
+grdcontour: Offending option ///
+grdcontour: Warning:  not a valid number and may not be decoded properly.
+grdcontour: Syntax error -J option. Correct syntax:
+	-Jm[<lon0>/[<lat0>/]]<scale> OR -JM[<lon0>/[<lat0>/]]<width>
+	  <scale> is <1:xxxx> or cm/degree, or use <width> in cm
+grdcontour: Offending option M//20
+ERROR 4: `///' not recognised as a supported file format.
+
+grdcontour (api_import_grid): Not a supported grid format [///]
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+grdcontour: Syntax error -R option. Correct syntax:
+	-R<xmin>/<xmax>/<ymin>/<ymax>[/<zmin>/<zmax>]
+	  Append r if giving lower left and upper right coordinates
+	-Rg or -Rd for global domain
+	-R<grdfile> to take the domain from a grid file
+grdcontour: Offending option ///
+grdcontour: Warning:  not a valid number and may not be decoded properly.
+grdcontour: Syntax error -J option. Correct syntax:
+	-Jm[<lon0>/[<lat0>/]]<scale> OR -JM[<lon0>/[<lat0>/]]<width>
+	  <scale> is <1:xxxx> or cm/degree, or use <width> in cm
+grdcontour: Offending option M//20
+ERROR 4: `///' not recognised as a supported file format.
+
+grdcontour (api_import_grid): Not a supported grid format [///]
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+grdcontour: Syntax error -R option. Correct syntax:
+	-R<xmin>/<xmax>/<ymin>/<ymax>[/<zmin>/<zmax>]
+	  Append r if giving lower left and upper right coordinates
+	-Rg or -Rd for global domain
+	-R<grdfile> to take the domain from a grid file
+grdcontour: Offending option ///
+grdcontour: Warning:  not a valid number and may not be decoded properly.
+grdcontour: Syntax error -J option. Correct syntax:
+	-Jm[<lon0>/[<lat0>/]]<scale> OR -JM[<lon0>/[<lat0>/]]<width>
+	  <scale> is <1:xxxx> or cm/degree, or use <width> in cm
+grdcontour: Offending option M//20
+ERROR 4: `///' not recognised as a supported file format.
+
+grdcontour (api_import_grid): Not a supported grid format [///]
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+grdcontour: Syntax error -R option. Correct syntax:
+	-R<xmin>/<xmax>/<ymin>/<ymax>[/<zmin>/<zmax>]
+	  Append r if giving lower left and upper right coordinates
+	-Rg or -Rd for global domain
+	-R<grdfile> to take the domain from a grid file
+grdcontour: Offending option ///
+grdcontour: Warning:  not a valid number and may not be decoded properly.
+grdcontour: Syntax error -J option. Correct syntax:
+	-Jm[<lon0>/[<lat0>/]]<scale> OR -JM[<lon0>/[<lat0>/]]<width>
+	  <scale> is <1:xxxx> or cm/degree, or use <width> in cm
+grdcontour: Offending option M//20
+ERROR 4: `///' not recognised as a supported file format.
+
+grdcontour (api_import_grid): Not a supported grid format [///]
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+grdcontour: Syntax error -R option. Correct syntax:
+	-R<xmin>/<xmax>/<ymin>/<ymax>[/<zmin>/<zmax>]
+	  Append r if giving lower left and upper right coordinates
+	-Rg or -Rd for global domain
+	-R<grdfile> to take the domain from a grid file
+grdcontour: Offending option ///
+psxy: Warning:  not a valid number and may not be decoded properly.
+psxy: Syntax error -J option. Correct syntax:
+	-Jm[<lon0>/[<lat0>/]]<scale> OR -JM[<lon0>/[<lat0>/]]<width>
+	  <scale> is <1:xxxx> or cm/degree, or use <width> in cm
+psxy: Offending option M//20
+ERROR 4: `///' not recognised as a supported file format.
+
+psxy (api_import_grid): Not a supported grid format [///]
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+psxy: Syntax error -R option. Correct syntax:
+	-R<xmin>/<xmax>/<ymin>/<ymax>[/<zmin>/<zmax>]
+	  Append r if giving lower left and upper right coordinates
+	-Rg or -Rd for global domain
+	-R<grdfile> to take the domain from a grid file
+psxy: Offending option ///
+adding cities
+psxy: Warning:  not a valid number and may not be decoded properly.
+psxy: Syntax error -J option. Correct syntax:
+	-Jm[<lon0>/[<lat0>/]]<scale> OR -JM[<lon0>/[<lat0>/]]<width>
+	  <scale> is <1:xxxx> or cm/degree, or use <width> in cm
+psxy: Offending option M//20
+ERROR 4: `///' not recognised as a supported file format.
+
+psxy (api_import_grid): Not a supported grid format [///]
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+psxy: Syntax error -R option. Correct syntax:
+	-R<xmin>/<xmax>/<ymin>/<ymax>[/<zmin>/<zmax>]
+	  Append r if giving lower left and upper right coordinates
+	-Rg or -Rd for global domain
+	-R<grdfile> to take the domain from a grid file
+psxy: Offending option ///
+pstext: Warning:  not a valid number and may not be decoded properly.
+pstext: Syntax error -J option. Correct syntax:
+	-Jm[<lon0>/[<lat0>/]]<scale> OR -JM[<lon0>/[<lat0>/]]<width>
+	  <scale> is <1:xxxx> or cm/degree, or use <width> in cm
+pstext: Offending option M//20
+ERROR 4: `///' not recognised as a supported file format.
+
+pstext (api_import_grid): Not a supported grid format [///]
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+pstext: Syntax error -R option. Correct syntax:
+	-R<xmin>/<xmax>/<ymin>/<ymax>[/<zmin>/<zmax>]
+	  Append r if giving lower left and upper right coordinates
+	-Rg or -Rd for global domain
+	-R<grdfile> to take the domain from a grid file
+pstext: Offending option ///
+adding sample locations
+psxy: Warning:  not a valid number and may not be decoded properly.
+psxy: Syntax error -J option. Correct syntax:
+	-Jm[<lon0>/[<lat0>/]]<scale> OR -JM[<lon0>/[<lat0>/]]<width>
+	  <scale> is <1:xxxx> or cm/degree, or use <width> in cm
+psxy: Offending option M//20
+ERROR 4: `///' not recognised as a supported file format.
+
+psxy (api_import_grid): Not a supported grid format [///]
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+psxy: Syntax error -R option. Correct syntax:
+	-R<xmin>/<xmax>/<ymin>/<ymax>[/<zmin>/<zmax>]
+	  Append r if giving lower left and upper right coordinates
+	-Rg or -Rd for global domain
+	-R<grdfile> to take the domain from a grid file
+psxy: Offending option ///
+plotting scale bars
+psbasemap: Warning:  not a valid number and may not be decoded properly.
+psbasemap: Syntax error -J option. Correct syntax:
+	-Jm[<lon0>/[<lat0>/]]<scale> OR -JM[<lon0>/[<lat0>/]]<width>
+	  <scale> is <1:xxxx> or cm/degree, or use <width> in cm
+psbasemap: Offending option M//20
+ERROR 4: `///' not recognised as a supported file format.
+
+psbasemap (api_import_grid): Not a supported grid format [///]
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+psbasemap: Syntax error -R option. Correct syntax:
+	-R<xmin>/<xmax>/<ymin>/<ymax>[/<zmin>/<zmax>]
+	  Append r if giving lower left and upper right coordinates
+	-Rg or -Rd for global domain
+	-R<grdfile> to take the domain from a grid file
+psbasemap: Offending option ///
+captionx_UL=-107.5,  captiony_UL=57.3
+writing caption.txt
+gmt  pstext caption.txt -R/// -JM//20 -M -Wwhite,o -N -O >> temp.ps
+pstext: Warning:  not a valid number and may not be decoded properly.
+pstext: Syntax error -J option. Correct syntax:
+	-Jm[<lon0>/[<lat0>/]]<scale> OR -JM[<lon0>/[<lat0>/]]<width>
+	  <scale> is <1:xxxx> or cm/degree, or use <width> in cm
+pstext: Offending option M//20
+ERROR 4: `///' not recognised as a supported file format.
+
+pstext (api_import_grid): Not a supported grid format [///]
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+[Session gmt (0)]: Error returned from GMT API: GMT_GRID_READ_ERROR (18)
+pstext: Syntax error -R option. Correct syntax:
+	-R<xmin>/<xmax>/<ymin>/<ymax>[/<zmin>/<zmax>]
+	  Append r if giving lower left and upper right coordinates
+	-Rg or -Rd for global domain
+	-R<grdfile> to take the domain from a grid file
+pstext: Offending option ///
+convert -rotate 90 temp.pdf -alpha off temp.gif
+height=612, width=792
+legendx_UL=550, legendy_UL=295
+Figure width=792, height=612
+Eruption start time:    
+plume height (km) =
+eruption duration (hrs) =
+erupted volume (km3 DRE) =
+all done
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+finished GFSVolc_to_gif_dp_mm.sh
+Tue Jun 14 21:47:02 UTC 2022
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
