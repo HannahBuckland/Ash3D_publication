@@ -1,1 +1,1 @@
-# Ash3D_publication
+# This repository contains data and code relevant to the article "Modelling the transport and deposition of ash following a Magnitude 7 eruption: the distal Mazama tephra" resubmitted to Bulletin of Volcanology in July 2022
